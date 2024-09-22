@@ -1,0 +1,25 @@
+# Smartphone Class Implementation
+
+This repository contains a Java implementation of the `Smartphone` class. The class represents a smartphone entity with various attributes and methods for learning purposes.
+
+## Features:
+- **Attributes**:
+  - `brand` (String): The smartphone's brand.
+  - `model` (String): The smartphone's model.
+  - `storageCapacity` (int): The storage capacity in GB.
+  - `price` (double): The price of the smartphone.
+  - `isWaterResistant` (boolean): Indicates whether the smartphone is water-resistant.
+
+- **Constructors**:
+  - **Default constructor**: Initializes the attributes with default values (e.g., "Unknown Brand" and 0.0 for price).
+  - **Parameterized constructor**: Allows setting the attributes when creating the object.
+
+- **Methods**:
+  - `displayInfo()`: Displays the smartphone's information in a formatted way.
+  - `installApp(String appName)`: Simulates installing an app on the smartphone.
+
+## Usage:
+You can test the class by creating objects using both constructors, calling the `displayInfo()` method, and using the `installApp()` method to simulate installing an app.
+
+## UML Diagram:
+A UML class diagram is included to represent the structure of the `Smartphone` class.
